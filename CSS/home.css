@@ -22,6 +22,11 @@ body {
   align-items: center;
 }
 
+#head-izd a {
+  color: white;
+  text-decoration: none;
+}
+
 #sobre-google {
   padding: 5px;
   margin: 0 5px;
@@ -36,14 +41,18 @@ body {
   /* background-color: rgb(53, 53, 153); */
   display: flex;
   align-items: center;
+  justify-content: right;
+}
+
+#head-der a {
+  color: white;
+  text-decoration: none;
 }
 
 /* falta mover dercha */
 #head-der-div {
   display: flex;
-  justify-content: center;
-  position: relative;
-  left: 75%;
+
 }
 
 /* falta mover dercha */
@@ -98,6 +107,11 @@ body {
   text-align: center;
 }
 
+#main-idiomas a {
+  color: cyan;
+  text-decoration: none;
+}
+
 #footer {
   color: white;
   /* background-color: rgb(83, 83, 146); */
@@ -113,9 +127,14 @@ body {
 #footer-link-izd {
   color: white;
   /* background-color: black; */
-  text-align: left;
+  justify-content: left;
   display: flex;
   padding: 10px;
+}
+
+#footer-link-izd a {
+  color: white;
+  text-decoration: none;
 }
 
 #f-link-izd {
@@ -133,8 +152,13 @@ body {
 
 #footer-link-der {
   /* background-color: azure; */
-  text-align: right;
+  justify-content: right;
   display: flex;
+}
+
+#footer-link-der a {
+  color: white;
+  text-decoration: none;
 }
 
 #f-link-der {
